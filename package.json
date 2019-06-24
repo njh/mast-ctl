@@ -1,0 +1,37 @@
+{
+  "name": "mast-ctl",
+  "description": "Multicast Audio Streaming Toolkit - Control Panel",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "mocha && standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/njh/mast-ctl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/njh/mast-ctl/issues"
+  },
+  "homepage": "https://github.com/njh/mast-ctl",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "sdp-transform": "^2.8.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.0",
+    "standard": "^9.0.2"
+  },
+  "standard": {
+    "env": [
+      "mocha",
+      "node"
+    ]
+  }
+}
