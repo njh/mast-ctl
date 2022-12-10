@@ -18,7 +18,7 @@
   "homepage": "https://github.com/njh/mast-ctl",
   "dependencies": {
     "debug": "^4.1.1",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "morgan": "^1.9.1",
     "sdp-transform": "^2.8.0",
     "serve-favicon": "^2.5.0"
