@@ -24,7 +24,7 @@
     "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "nodemon": "^1.19.0",
     "standard": "^9.0.2"
   },
